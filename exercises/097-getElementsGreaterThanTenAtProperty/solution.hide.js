@@ -5,7 +5,7 @@ function getElementsGreaterThan10AtProperty(obj, key) {
     }
 
     let arr = obj[key]
-    let newArr = []
+    let newArr = [];
 
     arr.forEach(e => {
         if (e > 10) {
